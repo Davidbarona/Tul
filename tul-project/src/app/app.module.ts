@@ -14,6 +14,10 @@ import { LoginComponent } from './login/login.component';
 import {LoginModule} from './login/login.module'
 import { RegisterComponent } from './register/register.component';
 import { RegisterModule } from './register/register.module';
+import { CardsComponent } from './cards/cards.component';
+import { CardsModule } from './cards/cards.module';
+import { MenuComponent } from './menu/menu.component';
+import { MenuModule } from './menu/menu.module';
 
 registerLocaleData(es);
 
@@ -22,6 +26,8 @@ registerLocaleData(es);
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    CardsComponent,
+    MenuComponent,
    
    
   ],
@@ -33,6 +39,8 @@ registerLocaleData(es);
     BrowserAnimationsModule,
     LoginModule,
     RegisterModule,
+    CardsModule,
+    MenuModule
     
   ],
   providers: [{ provide: NZ_I18N, useValue: es_ES }],
